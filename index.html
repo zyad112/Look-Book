@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LookBook - Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <button id="toggle-dark-mode">🌙</button>
+  <div class="login-container">
+    <div class="login-form">
+      <h2 id="welcome">Welcome to LookBook</h2>
+      <form id="login-form">
+        <input type="email" placeholder="Email or Phone" id="email" required />
+        <input type="password" placeholder="Password" id="password" required />
+        <button type="submit" id="login-btn">Log In</button>
+      </form>
+      <p>or</p>
+      <button class="social-login google">Log in with Google</button>
+      <button class="social-login apple">Log in with Apple</button>
+    </div>
+  </div>
+  <select id="language-switcher">
+    <option value="en">English</option>
+    <option value="ar">العربية</option>
+    <option value="fr">Français</option>
+  </select>
+  <script src="js/script.js"></script>
+</body>
+</html>
